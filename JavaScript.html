@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variant 8</title>
+    <link rel="stylesheet" href="src\css\style.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <img id="logo" src="src/img/logo/N-0.png" alt="Logo"
+                            style="width: 27px; height: 27px; cursor: pointer;">
+                    </li>
+                    <li class="menu_item"><a href="contacts.html" class="menu_link">Contacts</a></li>
+                    <li class="menu_item"><a href="request.html" class="menu_link">Leave request</a></li>
+                    <li class="menu_item"><a href="JavaScript.html" class="menu_link">JavaScript exr</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>JavaScript Exercises</h1>
+    <h2>Exercise #1</h2>
+    <form id="form" onsubmit="">
+        <label for="result">Enter info:</label>
+        <input type="text" id="result" readonly>
+        <br>
+        <button type="button" class="submit_btn" onclick="calculateDays()">OK</button>
+        <button type="button" class="submit_btn" onclick="cancel()">Cancel</button>
+    </form>
+
+    <br>
+    <h2>Exercise #2</h2>
+    <br>
+    <p>Days to nearest 23rd august: <span id="daysLeft"></span></p>
+
+    <br>
+    <h2>Exercise #3</h2>
+    <br>
+    <!-- Hyperlink to output current time: -->
+    <a href="#" onclick="showCurrentTime()">Show current time</a>
+    <a></a>
+
+    <!-- Lab-5 part -->
+
+    <div class="floating-window-border" id="container">
+        <div class="floating-window" id="floatingWindow">
+            <span id="dateNow"></span>
+        </div>
+    </div>
+
+    <script src="src/js/logo.js"></script>
+    <script src="src/js/current_date.js"></script>
+    <script src="src/js/current_time.js"></script>
+    <script src="src/js/friday.js"></script>
+    <script src="src/js/lr4.js"></script>
+</body>
+
+</html>

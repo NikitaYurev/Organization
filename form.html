@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src\css\style.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <img id="logo" src="src/img/logo/N-0.png" alt="Logo"
+                            style="width: 27px; height: 27px; cursor: pointer;">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form id="registration" onsubmit="return success(this)">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="file">Technical Task (Word or PDF):</label>
+            <input type="file" id="file" name="file" accept=".doc, .docx, .pdf">
+        </div>
+        <div class="form-group">
+            <label for="taskDescription">Task Description:</label><br>
+            <textarea id="taskDescription" name="taskDescription" rows="4" maxlength="1000"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label>Way to Get a Message:</label><br>
+            <input type="radio" id="phoneMessage" name="messageType" value="phone">
+            <label for="phoneMessage">By Phone Number</label><br>
+            <input type="radio" id="emailMessage" name="messageType" value="email">
+            <label for="emailMessage">By Email</label><br>
+        </div>
+        <button id="submitBtn" class="submit_btn">Send</button>
+    </form>
+    <script src="src/js/logo.js"></script>
+    <script src="src/js/form.js"></script>
+</body>
+
+</html>

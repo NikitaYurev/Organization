@@ -1,0 +1,525 @@
+/* line 2, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 16, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.img {
+  width: 400px;
+  height: 250px;
+}
+
+/* line 20, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 24, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.container {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 29, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+nav {
+  transform: translateY(-20%);
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 5;
+}
+
+/* line 36, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+nav .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 41, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 13px 0;
+  left: 150px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 48, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 53, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.menu .menu_item {
+  padding: 0 14px;
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 57, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 60, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo {
+  transform: translateY(-50px);
+  width: 100%;
+  min-height: 600px;
+  background: url("../img/Office-E-Commerce.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 66, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+}
+
+/* line 75, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_subheader {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+}
+
+/* line 85, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_descr {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 22px;
+  -webkit-text-stroke: 1px black;
+}
+
+/* line 93, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 11, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_btn:hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 108, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo_btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 112, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 115, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo ul li {
+  margin-left: 20px;
+}
+
+/* line 117, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.promo ul li::before {
+  content: "-";
+  margin-right: 10px;
+}
+
+/* line 121, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* line 124, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices .label {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 65px;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 138, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices .label_white {
+  background-color: #ffffre;
+  color: #000000;
+}
+
+/* line 141, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices .label_min {
+  width: 76px;
+}
+
+/* line 143, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices .table {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+/* line 148, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.prices .table th, .prices .table td {
+  border: 1px solid #000000;
+  padding: 15px;
+  text-align: center;
+}
+
+/* line 153, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 156, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 160, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 165, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 170, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 172, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 175, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 179, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 188, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_social_item i {
+  color: #fff;
+}
+
+/* line 190, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 193, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 197, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 202, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 206, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 211, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 220, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.xs-visible {
+  display: none;
+}
+
+/* line 223, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin,
+.fa-instagram {
+  color: white;
+}
+
+/* line 229, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.support_image {
+  display: inline-block;
+  transform: translateY(-10px);
+  width: 50%;
+  height: 400px;
+  margin-right: 20px;
+}
+
+/* line 236, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.header {
+  position: absolute;
+  top: 30px;
+  left: 70%;
+}
+
+/* line 241, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.data {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+}
+
+/* line 245, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.data ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 248, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.data ul li {
+  margin-left: 20px;
+}
+
+/* line 250, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.data ul li::before {
+  content: "-";
+  margin-right: 10px;
+}
+
+/* line 255, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.request_image {
+  display: block;
+  transform: translateY(-10px);
+  width: 50%;
+  height: 370px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+/* line 262, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.request_btn {
+  display: block;
+  position: absolute;
+  transform: translateY(-350px);
+  left: 68%;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 11, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.request_btn:hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 279, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.request_btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 282, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.request .paragraph {
+  position: absolute;
+  left: 30%;
+  bottom: 90px;
+}
+
+/* line 287, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+#registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* line 294, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* line 297, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+/* line 301, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* line 312, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* line 317, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.submit_btn {
+  display: block;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 11, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.submit_btn:hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 333, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.floating-window-border {
+  display: block;
+  position: fixed;
+  margin: 5px;
+  width: 160px;
+  height: 110px;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(120deg, #f68084 0%, #a6c0fe 100%);
+  border-width: pxs;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+/* line 346, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+.floating-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 5px;
+  width: 150px;
+  height: 100px;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-width: pxs;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+/* line 361, ../2University/University_KHPI_secondyear_2-2/WEB-Development/5-Lab/WebSite/src/sass/style.sass */
+#dateNow {
+  text-align: center;
+  cursor: default;
+}
+
+/*# sourceMappingURL=style.css.map */
